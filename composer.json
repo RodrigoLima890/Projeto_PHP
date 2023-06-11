@@ -1,0 +1,20 @@
+{
+    "name": "paulo/php_pro",
+    "autoload": {
+        "files": [
+            "app/helpers/constantes.php",
+            "app/router/router.php"
+        ],
+        "psr-4": {
+            "Paulo\\PhpPro\\": "src/"
+        }
+    },
+    "description": "Projeto PHP",
+    "authors": [
+        {
+            "name": "Rodrigo Das Chagas De Lima",
+            "email": "104842609+RodrigoLima890@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
